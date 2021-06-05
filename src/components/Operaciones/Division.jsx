@@ -1,13 +1,13 @@
 import React,{Fragment} from 'react'
 
     
-function Suma() {
+function Division() {
     const [resultado, setResultado] = React.useState(0)
     const [Valor1, setValor1] = React.useState(0);
     const[Valor2, setValor2] = React.useState(0);
-    const sumar =() => {
+    const dividir =() => {
         console.log("Click")
-        setResultado(parseInt(Valor1) + parseInt(Valor2));
+        setResultado(parseInt(Valor1) / parseInt(Valor2));
     }
     return (
         <Fragment> 
@@ -17,12 +17,11 @@ function Suma() {
             />
             <input type="number" placeholder="Segundo valor" onChange={(e)=>setValor2(e.target.value)}/>
             <input type="number" value={resultado} />
-            <button onClick={ () =>sumar() }>Sumar</button>
+            <button onClick={ () =>dividir() }>Dividir</button>
 
             
         </Fragment>
     )
 }
 
-export default Suma
-
+export default Division
