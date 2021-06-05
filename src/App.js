@@ -1,16 +1,10 @@
-import Parrafo from './components/Parrafo'
-import Img from './components/Img'
-import Tabla from './components/Tabla'
-import Textogde from './components/Textogde'
-import Filas from './components/Filas'
+import Suma from "./components/Suma";
 function App() {
   return (
     <div>
-   <Parrafo />
-   <Img />
-   <Tabla />
-   <Textogde />
-   <Filas />
+   
+  {/* <Eventos />*/}
+     <Suma /> 
 
    </div>
   );
