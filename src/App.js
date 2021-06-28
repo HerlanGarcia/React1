@@ -1,24 +1,16 @@
-import Suma from "./components/Suma";
-import Division from "./components/Operaciones/Division";
-import Multiplicacion from "./components/Operaciones/Multiplicacion";
-import Resta from "./components/Operaciones/Resta";
+import React from 'react'
+/*import Objetos from "./components/Objetos"; */
+import Fetchpokemon from "./components/Fetchpokemon";
+
 function App() {
   return (
-    <div> 
-      <h1>Calculadora de operaciones</h1>
-
-   
-  {/* <Eventos />*/}
-     <table>
-       <h1><Suma /></h1>
-       <h1><Division /></h1> 
-       <h1><Multiplicacion /></h1>
-       <h1><Resta /></h1>
-     </table>
     
-
-   </div>
+      <Fetchpokemon />
+    
+      
+    
   );
-}
+}   
 
-export default App;
+export default App; 
+
